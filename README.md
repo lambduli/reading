@@ -16,6 +16,15 @@ TODO: make a list of those, each item could have a short spoiler section contain
 
 - [A Solution to Haskell's MultiParameter Type Class Dillema](./reports/solution-to-haskells-multiparameter-type-class-dillema.md)
 
+- [How to make ad-hoc polymorphism less ad hoc](./reports/how-to-make-ad-hoc-polymorphism-less-adhoc.md)
+
+- [Implementing Type Classes](/reports/implementing-type-classes.md)
+
+- [Lexicaly-scoped Type Variables](./reports/lexically-scoped-type-variables.md)
+
+
+
+
 
 ## Series
 
