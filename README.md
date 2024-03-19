@@ -1,6 +1,6 @@
 # writing
 
-All of my public, non-academic writing.
+All of my public writing.
 
 ## Paper and Book Reports
 This is a collection of my (sometimes noticeably WIP) reports from reading papers and books.
@@ -122,6 +122,8 @@ There seems to be a big overlap with [An Overview of the Edinburgh Logical Frame
 ______
 
 
-## Series
+## My Series
 
 TODO: the *Write You a Theorem Prover* series
+
+TODO: the *Writing Haskell in Haskell* series
