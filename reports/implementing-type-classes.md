@@ -94,4 +94,4 @@ When it comes to methods - we can rely on the type-directed translation to gener
 
 ## Conclusion
 Useful paper. It gives enough information to implement the compile-time resolution of class-based overloading.
-Together with [Typing Haskell in Haskell](./reports/thih.md) should be enough to cover the implementation of type classes in a small language.
+Together with [Typing Haskell in Haskell](./reports/typing-haskell-in-haskell.md) should be enough to cover the implementation of type classes in a small language.

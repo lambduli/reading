@@ -60,7 +60,7 @@ For example consider the following constraint set:
 The first two constraints are in the *constraint set closure* for any of the following variables: `{a, b, c, d, e}`. They are, however, not reachable through any of `{x, y, z}`.
 
 ### Constraint Set Satisfiability
-The most important part of this sub-section is the fact that they use **substitution** to "admit" instances. This is in contrast to what [Typing Haskell in Haskell](./reports/thih.md) does—it uses matching, a one-way unification.
+The most important part of this sub-section is the fact that they use **substitution** to "admit" instances. This is in contrast to what [Typing Haskell in Haskell](./reports/typing-haskell-in-haskell.md) does—it uses matching, a one-way unification.
 
 I think it uses unification because it needs to deal with those "problematic" constraints.
 Suppose we have a constraint like `Foo a b` where both `a` and `b` are unreachable variables. If we go with matching—we would never be allowed to instantiate any of those two. But that is exactly what the strategy is about.
