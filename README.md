@@ -127,3 +127,5 @@ ______
 TODO: the *Write You a Theorem Prover* series
 
 TODO: the *Writing Haskell in Haskell* series
+
+TODO: the *Defining the Language Incrementally* series
