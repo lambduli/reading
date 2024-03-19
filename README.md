@@ -14,6 +14,9 @@ This paper is about a tool (or rather a library) for semantics engineering—the
 The tool is called CREDEX.
 
 
+______
+
+
 ### Haskell's Type System (and related to it)
 
 #### [A Polymorphic Type System for Extensible Records and Variants](./reports/plymorphic-type-system-for-extensible-records-and-variants.md)
@@ -71,11 +74,10 @@ With a major exception of it being defined in a way that is very similar to what
 That is, there is a syntactic form like `let` expression for declaring an overloaded operator and another one for overloading it.
 This, of course, does not allow for *recursive declarations*.
 It also offers a simple unification-based inference algorithm.
-The author explains that the inference differs from the *Algorightm W* by additional support for resolving the overloading.
+The author explains that the inference differs from the *Algorithm W* by additional support for resolving the overloading.
 
 #### [Parametric Type Classes (Extended Abstract)](./reports/parametric-type-classes.md)
 The paper proposes a generalization to the type class system in Haskell, enabling Type Classes with multiple parameters (on top of the "placeholder variable") and still preserving principal type property.
-> It seems to me that there will be some connection to the concept of *functional dependencies*.
 They present a unification and type reconstruction algorithm.
 
 #### [Practical type inference for arbitrary-rank types](./reports/practical-type-inference-for-arbitrary-rank-types.md)
@@ -93,6 +95,9 @@ A very detailed description of the implementation of a type checker for a simpli
 #### [Visible Type Application](./reports/visible-type-application.md)
 This paper describes how Haskell supports the *visible type application* functionality.
 It can be used as a primary resource for implementation.
+
+
+______
 
 
 ### Mathematical Logic, Proof Theory, Type Theory, and Theorem Proving
@@ -113,6 +118,8 @@ This is a short paper about two systems. The first part of the paper covers the 
 I think this is the foundational paper on LF. It defines the dependently typed lambda calculus and shows how one can encode first-order predicate logic and also second-order predicate logic into it.
 There seems to be a big overlap with [An Overview of the Edinburgh Logical Framework](/reports/overview-of-the-edinburgh-logical-framework.md). This one is a bit larger, though. Another overlapping paper is [Logical Frameworks — A Brief Introduction](/reports/logical-frameworks-a-brief-introduction.md).
 
+
+______
 
 
 ## Series

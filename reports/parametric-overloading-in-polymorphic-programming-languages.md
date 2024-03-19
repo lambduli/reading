@@ -16,7 +16,7 @@ That is, there is a syntactic form like `let` expression for declaring an overlo
 This, of course, does not allow for *recursive declarations*.
 
 It also offers a simple unification-based inference algorithm.
-The author explains that the inference differs from the *Algorightm W* by additional support for resolving the overloading.
+The author explains that the inference differs from the *Algorithm W* by additional support for resolving the overloading.
 
 
 ## Special Mentions
