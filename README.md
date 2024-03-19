@@ -6,10 +6,8 @@ All of my public, non-academic writing.
 This is a collection of my (sometimes noticeably WIP) reports from reading papers and books.
 The reports always share a common structure and sometimes contain my comments, thoughts, and questions.
 
-TODO: make a list of those, each item could have a short spoiler section containing the **Contents** section from the report.
 
-
-### Miscellaneous
+### Semantics Engineering
 
 #### [Semantics Engineering with Concrete Syntax](./reports/semantics-engineering-with-concrete-syntax.md)
 This paper is about a tool (or rather a library) for semantics engineering—the same thing that the PLT REDEX is about, only this one uses a concrete syntax for the terms, context definitions and patterns.
@@ -58,8 +56,22 @@ The paper describes two possible approaches to support lexically-scoped type var
 Those two approaches are quite different. The first one is described as a _type-lambda__ approach_ and the second one as a *type-sharing approach*. It is stated that the first approach is the one SML takes, whereas the second one is taken by GHC.
 However, that is now not true—current GHC does not take this approach. Instead, it implements what seems to be the first one, the *type-lambda* one.
 
+#### [Lightweight Extensible Records for Haskell](./reports/lightweight-extensible-records-for-haskell.md)
+The paper talks about a *record system* for Haskell. It is discussed as a more expressive alternative to Haskell 98's very light syntactic sugar over positional constructors.
+It mentions being strongly inspired by the work of Benedict R. Gaster and Mark P. Jones (Trex extension to Hugs compiler).
+They propose a record system that would allow record extension, label selection, record-label update (both value and type level).
+The syntax they use is similar to what can be seen in PureScript or Elm languages.
+The notion of a *Row Type* is introduced, together with the notion of a *Row Kind*.
+The paper is best read after [A Polymorphic Type System for Extensible Records and Variants](/reports/plymorphic-type-system-for-extensible-records-and-variants.md).
 
-
+#### [Parametric Overloading in Polymorphic Programming Languages](./reports/parametric-overloading-in-polymorphic-programming-languages.md)
+The paper defines a concept of parametric overloading similar to Haskell's type classes.
+It seems equivalent to single-parameter type classes.
+With a major exception of it being defined in a way that is very similar to what I have seen in [How to make ad-hoc polymorphism less ad hoc](/reports/how-to-make-ad-hoc-polymorphism-less-adhoc.md).
+That is, there is a syntactic form like `let` expression for declaring an overloaded operator and another one for overloading it.
+This, of course, does not allow for *recursive declarations*.
+It also offers a simple unification-based inference algorithm.
+The author explains that the inference differs from the *Algorightm W* by additional support for resolving the overloading.
 
 ## Series
 
