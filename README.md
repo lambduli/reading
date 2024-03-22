@@ -51,17 +51,6 @@ The paper is best read after [A Polymorphic Type System for Extensible Records a
 
 </br>
 
-#### [A Short Introduction to System F and Fω](./reports/short-introduction-to-system-f-fω.md)
-`#λ-cube`
-
-The paper builds the notion of *System Fω* starting from the Simply Typed Lambda Calculus (`λ->`).
-In that sense, it serves as a very light introduction to all the related concepts.
-It introduces and defines *types* and *kinds*, the *order* of the type, the concept of *parametric polymorphism* and a few more.
-A notable nicety of the paper is that it gives operational semantics of the whole language and all the type-related extensions.
-It also specifies the operational semantics of the type-language normalization and the reflexive, symmetric and transitive relation of type equality.
-
-</br>
-
 #### [Implementing Type Classes](/reports/implementing-type-classes.md)
 `#type classes`
 
@@ -152,6 +141,17 @@ This paper only focuses on the encoding of the first-order predicate logic. It c
 #### [A Framework for Defining Logics](./reports/framework-for-defining-logics.md)
 I think this is the foundational paper on LF. It defines the dependently typed lambda calculus and shows how one can encode first-order predicate logic and also second-order predicate logic into it.
 There seems to be a big overlap with [An Overview of the Edinburgh Logical Framework](/reports/overview-of-the-edinburgh-logical-framework.md). This one is a bit larger, though. Another overlapping paper is [Logical Frameworks — A Brief Introduction](/reports/logical-frameworks-a-brief-introduction.md).
+
+</br>
+
+#### [A Short Introduction to System F and Fω](./reports/short-introduction-to-system-f-fω.md)
+`#λ-cube`
+
+The paper builds the notion of *System Fω* starting from the Simply Typed Lambda Calculus (`λ->`).
+In that sense, it serves as a very light introduction to all the related concepts.
+It introduces and defines *types* and *kinds*, the *order* of the type, the concept of *parametric polymorphism* and a few more.
+A notable nicety of the paper is that it gives operational semantics of the whole language and all the type-related extensions.
+It also specifies the operational semantics of the type-language normalization and the reflexive, symmetric and transitive relation of type equality.
 
 </br>
 
