@@ -13,8 +13,6 @@ The reports always share a common structure and sometimes contain my comments, t
 This paper is about a tool (or rather a library) for semantics engineering—the same thing that the PLT REDEX is about, only this one uses a concrete syntax for the terms, context definitions and patterns.
 The tool is called CREDEX.
 
-</br>
-
 ______
 
 
@@ -130,7 +128,6 @@ However, that is now not true—current GHC does not take this approach. Instead
 This paper describes how Haskell supports the *visible type application* functionality.
 It can be used as a primary resource for implementation.
 
-</br>
 
 ______
 
