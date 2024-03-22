@@ -44,26 +44,32 @@ It describes the idea of using placeholders for the resolution of simple, single
 </br>
 
 #### [A Polymorphic Type System for Extensible Records and Variants](./reports/plymorphic-type-system-for-extensible-records-and-variants.md) :star:
+`#records` `#row polymorphism`
+
 The paper introduces and defines a type system with row polymorphism using the `lacks` constraints.
 The constraint is built on top of the *qualified types* and its constraint resolution strategy.
 The paper generalizes the concept of rows both for extensible and polymorphic records as well as for variant types.
 
 </br>
 
+#### [Lightweight Extensible Records for Haskell](./reports/lightweight-extensible-records-for-haskell.md)
+The paper talks about a *record system* for Haskell. It is discussed as a more expressive alternative to Haskell 98's very light syntactic sugar over positional constructors.
+It mentions being strongly inspired by the work of Benedict R. Gaster and Mark P. Jones (Trex extension to Hugs compiler).
+They propose a record system that would allow record extension, label selection, and record-label update (both value and type level).
+The syntax they use is similar to what can be seen in PureScript or Elm languages.
+The notion of a *Row Type* is introduced, together with the notion of a *Row Kind*.
+The paper is best read after [A Polymorphic Type System for Extensible Records and Variants](/reports/plymorphic-type-system-for-extensible-records-and-variants.md).
+
+</br>
+
 #### [A Short Introduction to System F and Fω](./reports/short-introduction-to-system-f-fω.md)
+`#λ-cube`
+
 The paper builds the notion of *System Fω* starting from the Simply Typed Lambda Calculus (`λ->`).
 In that sense, it serves as a very light introduction to all the related concepts.
 It introduces and defines *types* and *kinds*, the *order* of the type, the concept of *parametric polymorphism* and a few more.
 A notable nicety of the paper is that it gives operational semantics of the whole language and all the type-related extensions.
 It also specifies the operational semantics of the type-language normalization and the reflexive, symmetric and transitive relation of type equality.
-
-</br>
-
-#### [A Solution to Haskell's MultiParameter Type Class Dillema](./reports/solution-to-haskells-multiparameter-type-class-dillema.md)
-The paper proposes an alternative approach for resolving ambiguities in qualified types.
-It does not require *Functional Dependencies*.
-It requires a small change in the notion of ambiguity and a small change in the algorithm for resolving *constraints* **by instance**.
-To be more specific, at some point, an ambiguous *constraint* needs to be resolved by *closing the world* and just picking a fitting instance for the constraint.
 
 </br>
 
@@ -76,20 +82,11 @@ That is, a form similar to `let` expressions for declaring a to-be overloaded op
 
 </br>
 
-#### [Lexicaly-scoped Type Variables](./reports/lexically-scoped-type-variables.md)
-The paper describes two possible approaches to support lexically-scoped type variables.
-Those two approaches are quite different. The first one is described as a _type-lambda__ approach_ and the second one as a *type-sharing approach*. It is stated that the first approach is the one SML takes, whereas the second one is taken by GHC.
-However, that is now not true—current GHC does not take this approach. Instead, it implements what seems to be the first one, the *type-lambda* one.
-
-</br>
-
-#### [Lightweight Extensible Records for Haskell](./reports/lightweight-extensible-records-for-haskell.md)
-The paper talks about a *record system* for Haskell. It is discussed as a more expressive alternative to Haskell 98's very light syntactic sugar over positional constructors.
-It mentions being strongly inspired by the work of Benedict R. Gaster and Mark P. Jones (Trex extension to Hugs compiler).
-They propose a record system that would allow record extension, label selection, and record-label update (both value and type level).
-The syntax they use is similar to what can be seen in PureScript or Elm languages.
-The notion of a *Row Type* is introduced, together with the notion of a *Row Kind*.
-The paper is best read after [A Polymorphic Type System for Extensible Records and Variants](/reports/plymorphic-type-system-for-extensible-records-and-variants.md).
+#### [A Solution to Haskell's MultiParameter Type Class Dillema](./reports/solution-to-haskells-multiparameter-type-class-dillema.md)
+The paper proposes an alternative approach for resolving ambiguities in qualified types.
+It does not require *Functional Dependencies*.
+It requires a small change in the notion of ambiguity and a small change in the algorithm for resolving *constraints* **by instance**.
+To be more specific, at some point, an ambiguous *constraint* needs to be resolved by *closing the world* and just picking a fitting instance for the constraint.
 
 </br>
 
@@ -120,7 +117,16 @@ This paper describes a different approach to support multi-parametric type class
 
 </br>
 
+#### [Lexicaly-scoped Type Variables](./reports/lexically-scoped-type-variables.md)
+The paper describes two possible approaches to support lexically-scoped type variables.
+Those two approaches are quite different. The first one is described as a _type-lambda__ approach_ and the second one as a *type-sharing approach*. It is stated that the first approach is the one SML takes, whereas the second one is taken by GHC.
+However, that is now not true—current GHC does not take this approach. Instead, it implements what seems to be the first one, the *type-lambda* one.
+
+</br>
+
 #### [Visible Type Application](./reports/visible-type-application.md) :star:
+`#tutorial` `#polymorphism` `#visible type application`
+
 This paper describes how Haskell supports the *visible type application* functionality.
 It can be used as a primary resource for implementation.
 
