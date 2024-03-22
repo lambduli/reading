@@ -105,6 +105,82 @@ This paper describes how Haskell supports the *visible type application* functio
 It can be used as a primary resource for implementation.
 
 
+#### [Let Should not be Generalised](./reports/let-should-not-be-generalized.md)
+TODO: read
+
+
+#### [Partial Type Signatures for Haskell](./reports/partial-type-signature-for-haskell.md)
+TODO: read
+
+
+#### [Type Variables in Patterns](./reports/type-variables-in-patterns.md)
+TODO: read
+
+
+#### [Lower Your Guards](/reports/lower-your-guards.md)
+TODO: read
+
+
+#### [Pattern Synonyms](/reports/pattern-synonyms.md)
+TODO: read
+
+
+#### [Complete and Decidable Type Inference for GADTs](/reports/complete-and-decidale-type-inference-forgadts.md)
+TODO: read
+
+
+#### [Simple unification-based type inference for GADTs](./reports/simple-unification-based-type-inference-forgadts.md)
+TODO: read
+
+
+#### [A Quick Look at Impredicativity](/reports/quick-look-at-impredicativity.md)
+TODO: read
+
+
+#### [Towards Impredicative Types for GHC](./reports/towards-impredicative-types-for-ghc.md)
+TODO: read
+
+
+#### [Boxy Types: Inference for Higher-Rank Types and Impredicativity](/reports/boxy-types-inference-for-higher-rank-types-and-impredicativity.md)
+TODO: read
+
+
+#### [Type Inference for Record Concatenation and Multiple Inheritance](./reports/type-inference-for-record-concatenation-and-multiple-inheritance.md)
+TODO: read
+
+
+#### [Revisiting Iso-Recursive Subtyping](./reports/revisiting-iso-recursive-subtyping.md)
+TODO: read
+
+
+#### [Type Classes with Functional Dependencies](./reports/type-classes-with-functional-dependencies.md)
+TODO: read
+
+
+#### [Giving Haskell a Promotion](./reports/giving-haskell-a-promotion.md)
+TODO: read
+
+
+#### [Haskell Type Constraints Unleashed](./reports/haskell-type-constraints-unleashed.md)
+TODO: read
+
+
+#### [Quantified Class Constraints](./reports/quantified-class-constraints.md)
+TODO: read
+
+
+#### [First-class Polymorphism with Type Inference](./reports/first-class-polymorphism-with-type-inference.md)
+TODO: read
+
+
+#### [Functional Programming with Overloading and Higher-Order Polymorphism](./reports/functional-programming-with-overloading-and-higher-order-polymorphism.md)
+TODO: read
+
+
+#### [Making a fast curry Push/enter vs eval/apply for higher-order languages](./reports/making-a-fast-curry.md)
+TODO: read
+
+
 ______
 
 
@@ -129,6 +205,10 @@ There seems to be a big overlap with [An Overview of the Edinburgh Logical Frame
 
 #### [Lambda Cube Part 2](./reports/lambda-cube-pt-2.md)
 This is a short paper about two systems. The first part of the paper covers the system λ2 and the second one the **weak** system λω. This paper can be related to the [A Short Introduction to System F and Fω](/reports/short-introduction-to-system-f-fω.md). The current one might be even lighter.
+
+
+#### [A tutorial implementation of a dependently typed lambda calculus](./reports/tutorial-implementation-of-a-dependently-typed-lambda-calculus.md)
+TODO: write
 
 
 ______
