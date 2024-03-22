@@ -34,15 +34,6 @@ This is one of the most important papers in this category. It gives a very detai
 
 </br>
 
-#### [Implementing Type Classes](/reports/implementing-type-classes.md)
-`#type classes`
-
-This paper describes the part of the type checker that deals with class-based overloading.
-It does not go into much detail. It does not feature any code or a code-like description of an algorithm.
-It describes the idea of using placeholders for the resolution of simple, single-parameter *type classes* during the type-checking process.
-
-</br>
-
 #### [A Polymorphic Type System for Extensible Records and Variants](./reports/plymorphic-type-system-for-extensible-records-and-variants.md) :star:
 `#records` `#row polymorphism`
 
@@ -73,20 +64,21 @@ It also specifies the operational semantics of the type-language normalization a
 
 </br>
 
+#### [Implementing Type Classes](/reports/implementing-type-classes.md)
+`#type classes`
+
+This paper describes the part of the type checker that deals with class-based overloading.
+It does not go into much detail. It does not feature any code or a code-like description of an algorithm.
+It describes the idea of using placeholders for the resolution of simple, single-parameter *type classes* during the type-checking process.
+
+</br>
+
 #### [How to make ad-hoc polymorphism less ad hoc](./reports/how-to-make-ad-hoc-polymorphism-less-adhoc.md)
 The paper defines the concept of type classes as a way of ad-hoc overloading in Haskell.
 The main portion of the paper talks about features of *type classes* as they are introduced in Haskell.
 But when it comes to the language in the appendix, that is, the language on which the mechanics are defined and demonstrated, that has very little to do with Haskell.
 It uses a similar form as [Parametric Overloading in Polymorphic Programming Languages](./reports/TODO.md).
 That is, a form similar to `let` expressions for declaring a to-be overloaded operator and another one for overloading it.
-
-</br>
-
-#### [A Solution to Haskell's MultiParameter Type Class Dillema](./reports/solution-to-haskells-multiparameter-type-class-dillema.md)
-The paper proposes an alternative approach for resolving ambiguities in qualified types.
-It does not require *Functional Dependencies*.
-It requires a small change in the notion of ambiguity and a small change in the algorithm for resolving *constraints* **by instance**.
-To be more specific, at some point, an ambiguous *constraint* needs to be resolved by *closing the world* and just picking a fitting instance for the constraint.
 
 </br>
 
@@ -98,6 +90,14 @@ That is, there is a syntactic form like `let` expression for declaring an overlo
 This, of course, does not allow for *recursive declarations*.
 It also offers a simple unification-based inference algorithm.
 The author explains that the inference differs from the *Algorithm W* by additional support for resolving the overloading.
+
+</br>
+
+#### [A Solution to Haskell's MultiParameter Type Class Dillema](./reports/solution-to-haskells-multiparameter-type-class-dillema.md)
+The paper proposes an alternative approach for resolving ambiguities in qualified types.
+It does not require *Functional Dependencies*.
+It requires a small change in the notion of ambiguity and a small change in the algorithm for resolving *constraints* **by instance**.
+To be more specific, at some point, an ambiguous *constraint* needs to be resolved by *closing the world* and just picking a fitting instance for the constraint.
 
 </br>
 
