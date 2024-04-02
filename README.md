@@ -130,6 +130,11 @@ It covers both the logic and the programming language sides of the correspondenc
 
 　　
 
+#### [Theorems for Free](./reports/theorems-for-free.md)
+TODO
+
+　　
+
 #### [Artificial Intelligence - A Modern Approach](./reports/artificial-intelligence-a-modern-approach.md) :star:
 `#book` `#theory` `#automated reasoning` `#logical inference` `#resolution` `#automated theorem proving`
 
@@ -167,6 +172,11 @@ In that sense, it serves as a very light introduction to all the related concept
 It introduces and defines *types* and *kinds*, the *order* of the type, the concept of *parametric polymorphism* and a few more.
 A notable nicety of the paper is that it gives operational semantics of the whole language and all the type-related extensions.
 It also specifies the operational semantics of the type-language normalization and the reflexive, symmetric and transitive relation of type equality.
+
+　　
+
+#### [System Description: Twelf — A Meta-Logical Framework for Deductive Systems](./reports/a-meta-logical-framework-for-deductive-systems.md)
+TODO
 
 　　
 
