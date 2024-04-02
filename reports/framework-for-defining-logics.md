@@ -31,7 +31,7 @@ Those define and discuss interesting theorems and properties of the system. Ther
 > TODO: Consider expanding this part.
 
 #### Section 2.4: Canonical Forms
-This section defines the notion of a _canonical form_ as a further restriction of the notion of a *normal form*.
+This section defines the notion of a *canonical form* as a further restriction of the notion of a *normal form*.
 
 > TODO: What is the notion of *canonical form* useful for?
 

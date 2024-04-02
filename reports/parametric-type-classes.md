@@ -42,7 +42,7 @@ Aside from a sort of cryptic rule `let'`, all seems to be clear.
 The lack of clarity comes from the presence of three instance predicate contexts. As far as I can tell, the idea is the following:
 
 `C'` is the result of deriving a type for `e'`. It can be thought of as an output of that "sub-call".
-The `C'` is then also used in the _generalization_ of the inferred type. This leads to some of the predicates being released from the context. The resulting context is denoted `C''`.
+The `C'` is then also used in the *generalization* of the inferred type. This leads to some of the predicates being released from the context. The resulting context is denoted `C''`.
 It is stated, that `C''` must be *contained* within `C`.
 This should make sense.
 The `C''` contains predicates that could not be generalized - they are relevant on the outer level.

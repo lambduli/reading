@@ -16,7 +16,7 @@ It describes the idea of using placeholders for the resolution of simple, single
 
 #### The Issue with More Polymorphic Methods
 The only issue is the inherent limitation of the approach.
-Because we are resolving the overloading into a language with no overloading, we need a way to represent the _dictionary_ for the particular instance.
+Because we are resolving the overloading into a language with no overloading, we need a way to represent the *dictionary* for the particular instance.
 The paper chooses to do that with the use of tuples.
 
 What is missing, however, is a mention of a serious limitation of the approach when our type system does not support higher-rank types. More precisely, the paper never mentions that we can't have methods with types like:

@@ -22,7 +22,7 @@ The author explains that the inference differs from the *Algorithm W* by additio
 ## Special Mentions
 The paper talks about the property of *principal type* and asserts that the proposed system has that property.
 
-Does not use a notion of *qualified types*, instead it uses so-called _overloading schemes_*.
+Does not use a notion of *qualified types*, instead it uses so-called *overloading schemes*.
 
 The algorithm presented here is called *Algorithm Z*.
 

@@ -14,9 +14,9 @@ This paper only focuses on the encoding of the first-order predicate logic. It c
 #### Section 3.2: Natural Deduction
 This section mentions a couple of interesting-sounding concepts. I'll list them here.
 
-*The principle _of orthogonality_ is mentioned in the context of restricting the way each connective should be defined.
+*The principle *of orthogonality* is mentioned in the context of restricting the way each connective should be defined.
 
-*The local soundness and _local completeness_ are mentioned and explained.
+*The local soundness and *local completeness* are mentioned and explained.
 
 > Local soundness expresses that we should not be able to gain information by introducing a connective and immediately eliminating it.
 

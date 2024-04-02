@@ -106,7 +106,7 @@ This paper describes a different approach to support multi-parametric type class
 
 #### [Lexicaly-scoped Type Variables](./reports/lexically-scoped-type-variables.md)
 The paper describes two possible approaches to support lexically-scoped type variables.
-Those two approaches are quite different. The first one is described as a _type-lambda__ approach_ and the second one as a *type-sharing approach*. It is stated that the first approach is the one SML takes, whereas the second one is taken by GHC.
+Those two approaches are quite different. The first one is described as a *type-lambda approach* and the second one as a *type-sharing approach*. It is stated that the first approach is the one SML takes, whereas the second one is taken by GHC.
 However, that is now not true—current GHC does not take this approach. Instead, it implements what seems to be the first one, the *type-lambda* one.
 
 　　

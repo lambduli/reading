@@ -8,7 +8,7 @@ year of publishing: 2004
 ## Contents
 The paper describes two possible approaches to support lexically-scoped type variables.
 
-Those two approaches are quite different. The first one is described as a _type-lambda__ approach_ and the second one as a *type-sharing approach*. It is stated that the first approach is the one SML takes, whereas the second one is taken by GHC.
+Those two approaches are quite different. The first one is described as a *type-lambda approach* and the second one as a *type-sharing approach*. It is stated that the first approach is the one SML takes, whereas the second one is taken by GHC.
 However, that is now not true—current GHC does not take this approach. Instead, it implements what seems to be the first one, the *type-lambda* one.
 
 As a consequence—it might be confusing when the paper refers to the second approach as GHC's approach. On the other hand, the *type-sharing approach* seems to be quite interesting. I think I would use a different syntax for those *meta-variables* that can stand for arbitrary monotypes. Here is an example:

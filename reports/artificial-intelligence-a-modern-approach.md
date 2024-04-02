@@ -44,7 +44,7 @@ B ∨ K ∨ L ∨ M
 Now, what does the mention of the "complete search algorithm" mean?
 I think the idea is as follows: The knowledge base (KB) is viewed as a state of the search problem. Those inference rules are transitions from one state to another. We can search the problem space to try and find whether some proposition `β` is entailed by the KB.
 
-This section also introduces a specific aspect of the *resolution* called *factoring*. The *resolvent* should always contain only one instance of a specific literal. _Factoring_ is the removal of the redundant instances of the same literal from the resolvent.
+This section also introduces a specific aspect of the *resolution* called *factoring*. The *resolvent* should always contain only one instance of a specific literal. *Factoring* is the removal of the redundant instances of the same literal from the resolvent.
 
 Example: `(A ∨ B)` resolved with `(A ∨ ¬B)` produces `(A ∨ A)`, which is reduced to just `A` using *factoring*.
 
@@ -116,7 +116,7 @@ In Prolog, this would look like `C :- A, B.`
 No positive—a query in Prolog.
 `¬A ∨ ¬B  ≡  ¬A ∨ ¬B ∨ ⊥  ≡  ¬(¬A ∨ ¬B) ⟹ ⊥  ≡  (A ∧ B) ⟹ ⊥`
 This is because we prove the goal using a proof by contradiction. We assume the negation of the goal (as written by the user) and try to get to a contradiction.
-This is consistent with what we see above. To prove the entailment, we must arrive at a contradiction. The reason is, Prolog is driven by an _SLD__ resolution_. A kind of resolution and as such, we prove the entailment by getting to a contradiction.
+This is consistent with what we see above. To prove the entailment, we must arrive at a contradiction. The reason is, Prolog is driven by an *SLD resolution**. A kind of resolution and as such, we prove the entailment by getting to a contradiction.
 
 Single positive—a fact in Prolog.
 `K  ≡  ⊥ ∨ K  ≡  ¬⊥ ⟹ K  ≡  ⊤ ⟹ K`
@@ -242,7 +242,7 @@ That new name is called **Skolem constant**.
 
 
 The rule for *Universal Instantiation* can be applied many times.
-The rule for _Existential Instantiation_, however, can be applied only once per a FOL sentence and then the original sentence is discarded.
+The rule for *Existential Instantiation*, however, can be applied only once per a FOL sentence and then the original sentence is discarded.
 
 > The new *knowledge base* is not logically equivalent to the old one, but it can be shown to be **inferentially equivalent** in the sense that it is satisfiable exactly when the original *KN* is satisfiable.
 
@@ -311,7 +311,7 @@ This class of knowledge bases makes the inference much easier.
 ______
 
 ###### Non-termination of Forward Chaining
-For general *definite clauses* with _function symbols_, the inference based on forward chaining might not terminate.
+For general *definite clauses* with *function symbols*, the inference based on forward chaining might not terminate.
 An example of that might be a knowledge base containing the *Peano axioms*. The forward chaining will keep generating natural numbers indefinitely.
 
 ```

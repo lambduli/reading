@@ -92,7 +92,7 @@ That can be done with the use of the explicit type application.
 
 But how is it done in the paper?
 
-I think this is where the sort-of-non-deterministic use of V_INSTS comes to the picture.
+I think this is where the sort-of-non-deterministic use of V_INSTS comes into the picture.
 
 1. We start with the rule V_APP, we want the left-hand-side to be a function type of two concrete types.
 2. We then have to use the V_INSTS rule to instantiate the actual, polymorphic type of the expression (the type annotation).
@@ -173,7 +173,7 @@ In PTIART there is a rule called ⊢inst. This rule is used when we need to conf
 In other words, the rho on the right is an instantiation of the sigma on the left.
 
 ##### Variable
-This is used at various places—when we are analyzing an identifier (VAR) we use it to CHECK that the corresponding rho-type it _should_ have is an instantiation of a sigma-type that it has in the assumption set.
+This is used at various places—when we are analyzing an identifier (VAR) we use it to CHECK that the corresponding rho-type it *should* have is an instantiation of a sigma-type that it has in the assumption set.
 
 If we are INFERing the type of an identifier, we use the INST1. That one does instantiation on all generalized variables.
 
@@ -188,7 +188,7 @@ If we were in an INFER mode, the INST would be used to instantiate the sigma typ
 
 It is worth noting here, that the type of the left-hand side can indeed be (sigma --> sigma’).
 
-We need to consider that the the type of the left-hand side can be obtained through VAR rule (for example). This would mean that if the type is not in weak-prenex-form and has some foralls on the right-hand side of the arrow type, those variables will not get instantiated by INST. The _deep instantiation_ happens in the CHECKing mode only.
+We need to consider that the the type of the left-hand side can be obtained through VAR rule (for example). This would mean that if the type is not in weak-prenex-form and has some foralls on the right-hand side of the arrow type, those variables will not get instantiated by INST. The *deep instantiation* happens in the CHECKing mode only.
 
 This should not be a problem in any way. In CHECKing mode, the deep skolemisation takes care of it and in INFER mode, only the top-level variables get instantiated, leaving the rest as they are.
 
@@ -199,14 +199,14 @@ If in INFERring mode, it takes care of instantiating the type from the annotatio
 
 In CHECKing mode, it simply serves as a check that the type the expression ought to be and the one from the annotation are compatible. To be more specific, the type in an annotation can assert that the expression is **more** polymorphic than what the analysis needs. This is fine, as the POLY rule makes sure, that the type is not more polymorphic than the actual expression. And it is also fine with regards to the type from annotation being more polymorphic than what is “required”. We can see it like this—the “required” or “expected” type is what somebody is **asking** for. If we find out that what is given is actually more polymorphic than that, we are fine.
 
-For example, if a function says that it expects a function argument that operates on values of _Show_ and we use that information to go check the actual argument, and at that point, we discover that some annotation states that the actual function argument is a totally polymorphic function, we are fine. The caller big-function intends to only use it at Show types, but the actual argument-function does not care. It does not have any requirements, not even for its arguments to be _Show_. So this is fine.
+For example, if a function says that it expects a function argument that operates on values of *Show* and we use that information to go check the actual argument, and at that point, we discover that some annotation states that the actual function argument is a totally polymorphic function, we are fine. The caller big-function intends to only use it at Show types, but the actual argument-function does not care. It does not have any requirements, not even for its arguments to be *Show*. So this is fine.
 
 ###### Instantiation (INST rule)
 The rule INST itself has two directions.
 
 In the INFER direction, we just to instantiation of the top-level type variables/parameters. There is no prenex conversion happening.
 
-In the CHECK direction, we do the instantiation by delegating to _deep skolemisation_.  
+In the CHECK direction, we do the instantiation by delegating to *deep skolemisation*.  
 
 
 ###### Deep Skolemisation
@@ -251,7 +251,7 @@ I think the biggest difference is in instantiation. In the System SB there is no
 
 Take, for example, a rule VAR in PTIART—it solely relies on INST to deal with both directions. That means that in CHECKing mode, we do deep skolemisation and in INFER mode we do instantiation.
 
-Since the System SB in VAT does not have an instantiation rule, it effectively splits the rules in two directions—INFER and CHECK. The rule VAR or rather SB_VAR works only in INFER mode—this means that when we need to check that a variable has a certain type, we need to use the SB_INFER rule. This amounts to switching to INFER mode, inferring the type of the identifier and then using _deep skolemisation_ for checking that the inferred type is compatible with the checked-against type. To be more specific, that the checked-against type is an instantiation of the inferred one.
+Since the System SB in VAT does not have an instantiation rule, it effectively splits the rules in two directions—INFER and CHECK. The rule VAR or rather SB_VAR works only in INFER mode—this means that when we need to check that a variable has a certain type, we need to use the SB_INFER rule. This amounts to switching to INFER mode, inferring the type of the identifier and then using *deep skolemisation* for checking that the inferred type is compatible with the checked-against type. To be more specific, that the checked-against type is an instantiation of the inferred one.
 
 This “switching into INFER mode” raises a question—since the big advantage of the bidirectional type system is the ability to push types inwards, what do we lose by switching to INFER and checking the subsumption relation afterward?
 
@@ -260,7 +260,7 @@ Are there some syntactic forms that must be checked and can not be inferred and 
 ###### Switching to INFER mode using the rule SB_INFER
 After a closer inspection, we can see that System SB is equivalent to the bidirectional type system described in PTIART with respect to the INFER/CHECK mode.
 
-The System SB switches into INFER for VAR, APP, and ANN; this means that types of those are inferred and only then checked using _deep skolemisation_. This is precisely the behavior of the bidirectional type system in PTIART.
+The System SB switches into INFER for VAR, APP, and ANN; this means that types of those are inferred and only then checked using *deep skolemisation*. This is precisely the behavior of the bidirectional type system in PTIART.
 
 In that sense, combining both systems will not pose any problems.
 
