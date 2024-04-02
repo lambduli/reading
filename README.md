@@ -123,6 +123,13 @@ ______
 
 ### Mathematical Logic, Proof Theory, Type Theory, and Theorem Proving
 
+#### [Propositions as Types](./reports/propositions-as-types.md) :star:
+This paper explains the correspondence between logic and computation known as the Curry-Howard correspondence.
+It gives historical context for the discovery and its meaning.
+It covers both the logic and the programming language sides of the correspondence.
+
+　　
+
 #### [Artificial Intelligence - A Modern Approach](./reports/artificial-intelligence-a-modern-approach.md) :star:
 `#book` `#theory` `#automated reasoning` `#logical inference` `#resolution` `#automated theorem proving`
 
