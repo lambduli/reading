@@ -61,6 +61,8 @@ It describes the idea of using placeholders for the resolution of simple, single
 　　
 
 #### [How to make ad-hoc polymorphism less ad hoc](./reports/how-to-make-ad-hoc-polymorphism-less-adhoc.md)
+`#type classes`
+
 The paper defines the concept of type classes as a way of ad-hoc overloading in Haskell.
 The main portion of the paper talks about features of *type classes* as they are introduced in Haskell.
 But when it comes to the language in the appendix, that is, the language on which the mechanics are defined and demonstrated, that has very little to do with Haskell.
@@ -70,6 +72,8 @@ That is, a form similar to `let` expressions for declaring a to-be overloaded op
 　　
 
 #### [Parametric Overloading in Polymorphic Programming Languages](./reports/parametric-overloading-in-polymorphic-programming-languages.md)
+`#ad-hoc overloading`
+
 The paper defines a concept of parametric overloading similar to Haskell's type classes.
 It seems equivalent to single-parameter type classes.
 With a major exception of it being defined in a way that is very similar to what I have seen in [How to make ad-hoc polymorphism less ad hoc](/reports/how-to-make-ad-hoc-polymorphism-less-adhoc.md).
@@ -178,7 +182,12 @@ It also specifies the operational semantics of the type-language normalization a
 　　
 
 #### [System Description: Twelf — A Meta-Logical Framework for Deductive Systems](./reports/a-meta-logical-framework-for-deductive-systems.md)
-TODO
+A lightweight description of the Twelf system.
+
+　　
+
+#### [SASyLF: An Educational Proof Assistant for Language Theory](./reports/an-educational-proof-assistant-for-language-theory.md)
+TODO: reading, write soon
 
 　　
 

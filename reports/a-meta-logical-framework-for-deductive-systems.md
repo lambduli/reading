@@ -5,8 +5,10 @@ authors: Frank Pfenning, Carsten Schürmann
 year of publishing: 2002
 
 
-## State of Reading
-TODO: read and write, it's short
-
-
 ## Contents
+A lightweight description of the Twelf system.
+
+
+## Conclusion
+This very short paper gives quite a brief description of the Twelf system.
+It will be necessary to read some of the cited papers.
