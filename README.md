@@ -137,9 +137,19 @@ It covers both the logic and the programming language sides of the correspondenc
 　　
 
 #### [Theorems for Free](./reports/theorems-for-free.md)
-TODO
+Reading now.
 
 　　
+
+#### [A Syntactic Approach to Type Soundness](./reports/syntactic-approach-to-type-soundness.md)
+Reading now.
+
+　　
+
+<!-- #### [BASIC SIMPLE TYPE THEORY](./reports/basic-simple-type-theory.md)
+TODO
+
+　　 -->
 
 #### [Artificial Intelligence - A Modern Approach](./reports/artificial-intelligence-a-modern-approach.md) :star:
 `#book` `#theory` `#automated reasoning` `#logical inference` `#resolution` `#automated theorem proving`
@@ -196,6 +206,11 @@ TODO: reading, write soon
 
 This is a short paper about two systems. The first part of the paper covers the system λ2 and the second one the **weak** system λω. This paper can be related to the [A Short Introduction to System F and Fω](/reports/short-introduction-to-system-f-fω.md). The current one might be even lighter.
 
+　　
+
+#### [An Overview of λ-Prolog](/reports/overview-of-lambda-prolog.md)
+This paper is a nice, light exposure to the design and theory behind λ-Prolog.
+It reads well and might serve as a nice introduction to the language and the topics behind it.
 
 ______
 
