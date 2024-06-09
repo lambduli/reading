@@ -16,6 +16,107 @@ The tool is called CREDEX.
 ______
 
 
+### Mathematical Logic, Proof Theory, Type Theory, and Theorem Proving
+
+#### [Propositions as Types](./reports/propositions-as-types.md) :star:
+`#curry-howard correspondence` `#formulae as types` `#logic and computation`
+
+This paper explains the correspondence between logic and computation known as the Curry-Howard correspondence.
+It gives historical context for the discovery and its meaning.
+It covers both the logic and the programming language sides of the correspondence.
+
+　　
+
+#### [Theorems for Free](./reports/theorems-for-free.md)
+Reading now.
+
+　　
+
+#### [A Syntactic Approach to Type Soundness](./reports/syntactic-approach-to-type-soundness.md)
+Reading now.
+
+　　
+
+<!-- #### [BASIC SIMPLE TYPE THEORY](./reports/basic-simple-type-theory.md)
+TODO
+
+　　 -->
+
+#### [Type Theory and Formal Proof](./reports/type-theory-and-formal-proof.md)
+A nice textbook covering the topics of type theory from the very basics.
+
+　　
+
+#### [Interactive Theorem Proving and Program Development — Coq'Art: The Calculus of Inductive Constructions](./reports/interactive-theorem-proving-and-program-development.md)
+A textbook describing the Coq system and also the theory behind it.
+
+　　
+
+#### [Artificial Intelligence - A Modern Approach](./reports/artificial-intelligence-a-modern-approach.md) :star:
+`#book` `#theory` `#automated reasoning` `#logical inference` `#resolution` `#automated theorem proving`
+
+This is a great resource for studying many things. I have used it to learn about resolution theorem proving and all the smaller concepts involved with it.
+
+　　
+
+#### [Handbook of Practical Logic and Automated Reasoning](./reports/handbook-of-practical-logic-and-automated-reasoning.md) :star:
+`#book` `#tutorial` `#automated reasoning` `#logical inference` `#resolution` `#automated theorem proving`
+
+This book is a great resource for learning about mathematical logic, proving, and reasoning. It contains various chapters on different topics and goes quite deep. It also presents implementations of everything—which makes it extremely valuable.
+
+　　
+
+#### [Logical Frameworks — A Brief Introduction](./reports/logical-frameworks-a-brief-introduction.md) :star:
+`#edinburgh logical framework` `#LF` `#λΠ`
+
+This paper only focuses on the encoding of the first-order predicate logic. It cuts straight to the chase and skips the "syntactic only" encoding that seems to be going on in the [A Framework for Defining Logics](./reports/framework-for-defining-logics.md). This way, we get to the actual encoding that deals with the concept of logical validity right away.
+
+　　
+
+#### [A Framework for Defining Logics](./reports/framework-for-defining-logics.md)
+`#edinburgh logical framework` `#LF` `#λΠ`
+
+I think this is the foundational paper on LF. It defines the dependently typed lambda calculus and shows how one can encode first-order predicate logic and also second-order predicate logic into it.
+There seems to be a big overlap with [An Overview of the Edinburgh Logical Framework](/reports/overview-of-the-edinburgh-logical-framework.md). This one is a bit larger, though. Another overlapping paper is [Logical Frameworks — A Brief Introduction](/reports/logical-frameworks-a-brief-introduction.md).
+
+　　
+
+#### [A Short Introduction to System F and Fω](./reports/short-introduction-to-system-f-fω.md)
+`#λ-cube`
+
+The paper builds the notion of *System Fω* starting from the Simply Typed Lambda Calculus (`λ->`).
+In that sense, it serves as a very light introduction to all the related concepts.
+It introduces and defines *types* and *kinds*, the *order* of the type, the concept of *parametric polymorphism* and a few more.
+A notable nicety of the paper is that it gives operational semantics of the whole language and all the type-related extensions.
+It also specifies the operational semantics of the type-language normalization and the reflexive, symmetric and transitive relation of type equality.
+
+　　
+
+#### [System Description: Twelf — A Meta-Logical Framework for Deductive Systems](./reports/a-meta-logical-framework-for-deductive-systems.md)
+A lightweight description of the Twelf system.
+
+　　
+
+#### [SASyLF: An Educational Proof Assistant for Language Theory](./reports/an-educational-proof-assistant-for-language-theory.md)
+TODO: reading, write soon
+
+　　
+
+#### [Lambda Cube Part 2](./reports/lambda-cube-pt-2.md)
+`#λ-cube`
+
+This is a short paper about two systems. The first part of the paper covers the system λ2 and the second one the **weak** system λω. This paper can be related to the [A Short Introduction to System F and Fω](/reports/short-introduction-to-system-f-fω.md). The current one might be even lighter.
+
+　　
+
+#### [An Overview of λ-Prolog](/reports/overview-of-lambda-prolog.md)
+This paper is a nice, light exposure to the design and theory behind λ-Prolog.
+It reads well and might serve as a nice introduction to the language and the topics behind it.
+
+　　
+______
+
+
 ### Haskell's Type System (and related to it)
 
 #### [Typing Haskell in Haskell](./reports/typing-haskell-in-haskell.md) :star:
@@ -120,105 +221,3 @@ However, that is now not true—current GHC does not take this approach. Instead
 
 This paper describes how Haskell supports the *visible type application* functionality.
 It can be used as a primary resource for implementation.
-
-
-______
-
-
-### Mathematical Logic, Proof Theory, Type Theory, and Theorem Proving
-
-#### [Propositions as Types](./reports/propositions-as-types.md) :star:
-`#curry-howard correspondence` `#formulae as types` `#logic and computation`
-
-This paper explains the correspondence between logic and computation known as the Curry-Howard correspondence.
-It gives historical context for the discovery and its meaning.
-It covers both the logic and the programming language sides of the correspondence.
-
-　　
-
-#### [Theorems for Free](./reports/theorems-for-free.md)
-Reading now.
-
-　　
-
-#### [A Syntactic Approach to Type Soundness](./reports/syntactic-approach-to-type-soundness.md)
-Reading now.
-
-　　
-
-<!-- #### [BASIC SIMPLE TYPE THEORY](./reports/basic-simple-type-theory.md)
-TODO
-
-　　 -->
-
-#### [Artificial Intelligence - A Modern Approach](./reports/artificial-intelligence-a-modern-approach.md) :star:
-`#book` `#theory` `#automated reasoning` `#logical inference` `#resolution` `#automated theorem proving`
-
-This is a great resource for studying many things. I have used it to learn about resolution theorem proving and all the smaller concepts involved with it.
-
-　　
-
-#### [Handbook of Practical Logic and Automated Reasoning](./reports/handbook-of-practical-logic-and-automated-reasoning.md) :star:
-`#book` `#tutorial` `#automated reasoning` `#logical inference` `#resolution` `#automated theorem proving`
-
-This book is a great resource for learning about mathematical logic, proving, and reasoning. It contains various chapters on different topics and goes quite deep. It also presents implementations of everything—which makes it extremely valuable.
-
-　　
-
-#### [Logical Frameworks — A Brief Introduction](./reports/logical-frameworks-a-brief-introduction.md) :star:
-`#edinburgh logical framework` `#LF` `#λΠ`
-
-This paper only focuses on the encoding of the first-order predicate logic. It cuts straight to the chase and skips the "syntactic only" encoding that seems to be going on in the [A Framework for Defining Logics](./reports/framework-for-defining-logics.md). This way, we get to the actual encoding that deals with the concept of logical validity right away.
-
-　　
-
-#### [A Framework for Defining Logics](./reports/framework-for-defining-logics.md)
-`#edinburgh logical framework` `#LF` `#λΠ`
-
-I think this is the foundational paper on LF. It defines the dependently typed lambda calculus and shows how one can encode first-order predicate logic and also second-order predicate logic into it.
-There seems to be a big overlap with [An Overview of the Edinburgh Logical Framework](/reports/overview-of-the-edinburgh-logical-framework.md). This one is a bit larger, though. Another overlapping paper is [Logical Frameworks — A Brief Introduction](/reports/logical-frameworks-a-brief-introduction.md).
-
-　　
-
-#### [A Short Introduction to System F and Fω](./reports/short-introduction-to-system-f-fω.md)
-`#λ-cube`
-
-The paper builds the notion of *System Fω* starting from the Simply Typed Lambda Calculus (`λ->`).
-In that sense, it serves as a very light introduction to all the related concepts.
-It introduces and defines *types* and *kinds*, the *order* of the type, the concept of *parametric polymorphism* and a few more.
-A notable nicety of the paper is that it gives operational semantics of the whole language and all the type-related extensions.
-It also specifies the operational semantics of the type-language normalization and the reflexive, symmetric and transitive relation of type equality.
-
-　　
-
-#### [System Description: Twelf — A Meta-Logical Framework for Deductive Systems](./reports/a-meta-logical-framework-for-deductive-systems.md)
-A lightweight description of the Twelf system.
-
-　　
-
-#### [SASyLF: An Educational Proof Assistant for Language Theory](./reports/an-educational-proof-assistant-for-language-theory.md)
-TODO: reading, write soon
-
-　　
-
-#### [Lambda Cube Part 2](./reports/lambda-cube-pt-2.md)
-`#λ-cube`
-
-This is a short paper about two systems. The first part of the paper covers the system λ2 and the second one the **weak** system λω. This paper can be related to the [A Short Introduction to System F and Fω](/reports/short-introduction-to-system-f-fω.md). The current one might be even lighter.
-
-　　
-
-#### [An Overview of λ-Prolog](/reports/overview-of-lambda-prolog.md)
-This paper is a nice, light exposure to the design and theory behind λ-Prolog.
-It reads well and might serve as a nice introduction to the language and the topics behind it.
-
-______
-
-
-## My Series
-
-TODO: the *Write You a Theorem Prover* series
-
-TODO: the *Writing Haskell in Haskell* series
-
-TODO: the *Defining the Language Incrementally* series
