@@ -113,7 +113,7 @@ This is a short paper about two systems. The first part of the paper covers the 
 This paper is a nice, light exposure to the design and theory behind λ-Prolog.
 It reads well and might serve as a nice introduction to the language and the topics behind it.
 
-　　
+
 ______
 
 
