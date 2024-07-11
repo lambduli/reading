@@ -117,7 +117,7 @@ It reads well and might serve as a nice introduction to the language and the top
 ______
 
 
-### Haskell's Type System (and related to it)
+### <img style="height: 1em;" src="https://takenobu-hs.github.io/downloads/images/haskell-logo-s.png"/> Haskell's Type System (and related to it)
 
 #### [Typing Haskell in Haskell](./reports/typing-haskell-in-haskell.md) :star:
 `#tutorial` `#inference` `#type classes` `#polymorphism`
