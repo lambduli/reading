@@ -1,8 +1,5 @@
 # reading
 
-The stuff I read.
-
-## Paper and Book Reports
 This is a collection of my (sometimes noticeably WIP) reports from reading papers and books.
 The reports always share a common structure and sometimes contain my comments, thoughts, and questions.
 
