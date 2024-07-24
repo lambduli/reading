@@ -1,6 +1,6 @@
 # writing
 
-All of my public writing.
+The stuff I read.
 
 ## Paper and Book Reports
 This is a collection of my (sometimes noticeably WIP) reports from reading papers and books.
