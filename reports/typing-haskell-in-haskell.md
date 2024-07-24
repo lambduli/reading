@@ -1,6 +1,6 @@
 # Typing Haskell in Haskell
 
-authors: Mark P. Jones
+author: Mark P. Jones
 
 year of publishing: 2000
 

@@ -1,6 +1,6 @@
 # Theorems for Free
 
-authors: Philip Wadler
+author: Philip Wadler
 
 year of publishing: 1989
 

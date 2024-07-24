@@ -1,6 +1,6 @@
 # A Short Introduction to System F and Fω
 
-authors: Pablo Nogueira
+author: Pablo Nogueira
 
 year of publishing: 2006
 

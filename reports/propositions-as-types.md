@@ -1,6 +1,6 @@
 # Propositions as Types
 
-authors: Phil Wadler
+author: Phil Wadler
 
 year of publishing: 2014
 

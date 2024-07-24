@@ -1,6 +1,6 @@
 # BASIC SIMPLE TYPE THEORY
 
-authors: J. Roger Hindley
+author: J. Roger Hindley
 
 year of publishing: 1997
 

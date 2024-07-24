@@ -1,6 +1,6 @@
 # Parametric Overloading in Polymorphic Programming Languages
 
-authors: Stefan Kaes
+author: Stefan Kaes
 
 year of publishing: 1988
 
