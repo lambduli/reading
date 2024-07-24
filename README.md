@@ -25,12 +25,12 @@ It covers both the logic and the programming language sides of the correspondenc
 　　
 
 #### 📄 [Theorems for Free](./reports/theorems-for-free.md)
-Reading now.
+Began reading.
 
 　　
 
 #### 📄 [A Syntactic Approach to Type Soundness](./reports/syntactic-approach-to-type-soundness.md)
-Reading now.
+Began reading.
 
 　　
 
