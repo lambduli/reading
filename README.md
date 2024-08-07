@@ -66,7 +66,7 @@ This book is a great resource for learning about mathematical logic, proving, an
 #### 📚 The Little Typer :star:
 `#book` `#dependent types`
 
-An excellent book that explains the concept of dependent types and their use expecting very little prior knowledge or experience. A very pleasant read and extremely valuable resource.
+An excellent book that explains the concept of dependent types and their use expecting very little prior knowledge or experience. A very pleasant read and an extremely valuable resource.
 
 　　
 
