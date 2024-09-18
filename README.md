@@ -70,6 +70,13 @@ An excellent book that explains the concept of dependent types and their use exp
 
 　　
 
+#### 📄 [Checking Dependent Types with Normalization by Evaluation: A Tutorial (Haskell Version)](./reports/checking-dependent-types-with-normalization-by-evaluation.md)
+`#dependent types` `#tutorial` `#normalization by evaluation` `#bidirectional type checking`
+
+A great tutorial paper describing a simple implementation of a dependently typed language. It is best read after *The Little Typer*.
+
+　　
+
 #### 📄 [Logical Frameworks — A Brief Introduction](./reports/logical-frameworks-a-brief-introduction.md) :star:
 `#edinburgh logical framework` `#LF` `#λΠ`
 
